@@ -1,0 +1,34 @@
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Generated datasets, figures, and model checkpoints
+/dataset/
+/loss_curve.png
+/samples.png
+*.pt
+*.pth
+*.ckpt
+/checkpoints/
+
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+secrets/
+.secrets/
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Operating-system files
+.DS_Store
+Thumbs.db
